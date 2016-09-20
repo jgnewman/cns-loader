@@ -1,0 +1,3 @@
+sayHello() -> 'Hello from Cream & Sugar compiled by Webpack -- John'
+
+export { sayHello/0 }

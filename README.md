@@ -1,6 +1,4 @@
-# Gimme a minute, fellas. I'm adapting this from coffee-loader.
-
-# Cream & Sugar Loader for Webpack
+# Cream & Sugar Loader for Webpack (Alpha)
 
 ## Usage
 

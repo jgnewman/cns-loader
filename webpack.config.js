@@ -1,14 +1,14 @@
 module.exports = {
-  entry: './test/index.coffee',
+  entry: './test/index.cns',
   output: {
     filename: './test/bundle.js'
   },
   module: {
     loaders: [
-      { test: /\.coffee$/, loader: "coffee" }
+      { test: /\.cns$/, loader: "cns" }
     ]
   },
   resolve: {
-    extensions: ["", ".web.coffee", ".web.js", ".coffee", ".js"]
+    extensions: ["", ".web.cns", ".web.js", ".cns", ".js"]
   }
 }

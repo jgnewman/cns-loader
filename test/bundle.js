@@ -44,19 +44,60 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var hello;
+	/* WEBPACK VAR INJECTION */(function(global) {var CNS_SYSTEM = typeof CNS_SYSTEM !== "undefined" ? CNS_SYSTEM : {};
 
-	hello = __webpack_require__(1);
+	    if      (typeof global !== "undefined") { global.CNS_SYSTEM = CNS_SYSTEM }
+	    else if (typeof window !== "undefined") { window.CNS_SYSTEM = CNS_SYSTEM }
+	    else if (typeof self   !== "undefined") { self.CNS_SYSTEM = CNS_SYSTEM   }
+	    else { this.CNS_SYSTEM = CNS_SYSTEM }
 
-	console.log(hello.hello);
+	  
+	//**END LIBRARY**//
+	;
 
+	var __ref0__ = __webpack_require__(1);
+	const sayHello = __ref0__.sayHello;
+	console.log(sayHello());
+
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	exports.hello = 'Hello from Coffee Script compiled by Webpack -- Ondrej';
+	/* WEBPACK VAR INJECTION */(function(global) {var CNS_SYSTEM = typeof CNS_SYSTEM !== "undefined" ? CNS_SYSTEM : {};
 
+	    if      (typeof global !== "undefined") { global.CNS_SYSTEM = CNS_SYSTEM }
+	    else if (typeof window !== "undefined") { window.CNS_SYSTEM = CNS_SYSTEM }
+	    else if (typeof self   !== "undefined") { self.CNS_SYSTEM = CNS_SYSTEM   }
+	    else { this.CNS_SYSTEM = CNS_SYSTEM }
+
+	  
+	//**END LIBRARY**//
+	CNS_SYSTEM.args = CNS_SYSTEM.args || function (args) {
+	    const out = [];
+	    Array.prototype.push.apply(out, args);
+	    return out;
+	  };
+	CNS_SYSTEM.exp = CNS_SYSTEM.exp || (function () {var exp = (typeof module === 'undefined' || !module.exports) ? this : module.exports;return function (name, val) {exp[name] = val;};}());
+	CNS_SYSTEM.aritize = CNS_SYSTEM.aritize || function (fun, arity) {
+	    return function () {
+	      if (arguments.length === arity) {
+	        return fun.apply(undefined, arguments);
+	      } else {
+	        throw new Error('Function ' + (fun.name || '') + ' called with wrong arity. Expected ' + arity + ' got ' + arguments.length + '.');
+	      }
+	    };
+	  };
+
+	function sayHello () {
+	    const args = CNS_SYSTEM.args(arguments);
+	    
+	    return 'Hello from Cream & Sugar compiled by Webpack -- John';
+	  };
+	CNS_SYSTEM.exp("sayHello", CNS_SYSTEM.aritize(sayHello, 0));
+
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }
 /******/ ]);

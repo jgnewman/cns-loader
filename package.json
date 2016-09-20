@@ -1,13 +1,13 @@
 {
   "name": "cns-loader",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1-alpha2",
   "author": "John Newman",
   "description": "cream & sugar loader module for webpack",
   "dependencies": {
     "loader-utils": "0.2.x"
   },
   "peerDependencies": {
-    "cream-and-sugar": "0.0.1-alpha5"
+    "cream-and-sugar": "^0.0.1-alpha6"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,7 @@
     "watch": "webpack --watch"
   },
   "devDependencies": {
-    "webpack": "^1.13.2",
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.9.3"
+    "cream-and-sugar": "0.0.1-alpha6",
+    "webpack": "^1.13.2"
   }
 }
