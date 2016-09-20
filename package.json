@@ -1,0 +1,22 @@
+{
+  "name": "cns-loader",
+  "version": "0.0.1-alpha1",
+  "author": "John Newman",
+  "description": "cream & sugar loader module for webpack",
+  "dependencies": {
+    "loader-utils": "0.2.x"
+  },
+  "peerDependencies": {
+    "cream-and-sugar": "0.0.1-alpha5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jgnewman/cns-loader.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
