@@ -10,11 +10,11 @@
 
 ``` javascript
 {
-	module: {
-		loaders: [
-			{ test: /\.cns$/, loader: "cns-loader" },
-		]
-	}
+  module: {
+    loaders: [
+      { test: /\.cns$/, loader: "cns-loader" },
+    ]
+  }
 }
 ```
 
