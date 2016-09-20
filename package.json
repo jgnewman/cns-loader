@@ -26,5 +26,12 @@
   "devDependencies": {
     "cream-and-sugar": "0.0.1-alpha6",
     "webpack": "^1.13.2"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "cns",
+    "cream and sugar",
+    "cream & sugar"
+  ]
 }
