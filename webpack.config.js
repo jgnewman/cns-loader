@@ -5,10 +5,10 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.cns$/, loader: "cns" }
+      { test: /\.(cns|cream)$/, loader: "cns" }
     ]
   },
   resolve: {
-    extensions: ["", ".web.cns", ".web.js", ".cns", ".js"]
+    extensions: [".web.cns", ".web.cream", ".cns", ".cream"]
   }
 }
